@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cuenta Bancaria</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<form action="">
+		<div class="container-A">
+			<h3>Cuenta Principal [A]</h3>
+			<label for="">Saldo a favor: </label>
+			<input type="text" id= "txtSaldoA" value="25000" readonly="" /><br />
+			<label for="">Monto a transferir</label>
+			<div id="campo1">
+				<input type="text" id="txtMontoA" />
+			</div>
+			<input type="button" value="Transferir a B" id="btnTransferirB" class="btn btn-warning" />
+		</div>
+
+		<hr />
+
+		<div class="container-B">
+			<h3>Cuenta Principal [B]</h3>
+			<label for="">Saldo a favor: </label>
+			<input type="text" id= "txtSaldoB" value="10000" readonly="" />
+			<label for="">Monto a transferir</label>
+			<input type="text" id="txtMontoB" />
+			<input type="button" value="Transferir a A" id="btnTransferirA" class="btn btn-warning" />
+		</div>
+	</form>
+
+	<script src="js/logic.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+	background-color: #8bc34a;
+	margin: 0 auto;
+	width: 40%;
+	margin-top: 250px;
+	border: 2px dashed #000;
+}
+
+label {
+	width: 48%;
+}
+
+input[type="button"] {
+	margin: 5% 0% 0% 24%;
+    width: 50%;
+}
+
+input[type="text"] {
+	width: 40%;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+form {
+	width: 100%;
+	padding: 25px;
+}
+
+.error {
+	border: 3px solid #e74c3c;
+}
+
+#txtSaldoA,#txtSaldoB {
+	cursor: not-allowed;
+}
+
+.container-A, .container-B {
+	width: 80%;
+    margin: 0 auto;
+}
+
+#campo1 {
+	display: inline-block;
+    width: 40%;
+}
+
+#campo1 input {
+	text-align: center;
+	width: 100%;
+}
